@@ -8,10 +8,20 @@ export const SectionFourContainer = styled.div`
   width: 1500px;
   margin: 0 auto;
   gap: 40px;
+
+  @media screen and (max-width: 430px) {
+    flex-direction: column;
+    width: 80%;
+    padding: 40px 0;
+  }
 `;
 export const SectionFourImgContainer = styled.div`
   height: 600px;
   width: 500px;
+
+  @media screen and (max-width: 430px) {
+    width: 100%;
+  }
 `;
 export const SectionFourImg = styled.img`
   height: 100%;
@@ -20,6 +30,10 @@ export const SectionFourImg = styled.img`
 `;
 export const SectionFourText = styled.div`
   width: 600px;
+
+  @media screen and (max-width: 430px) {
+    width: 100%;
+  }
   h3,
   h4 {
     text-align: center;
@@ -30,6 +44,10 @@ export const SectionFourText = styled.div`
   h3 {
     line-height: 60px;
     color: #f3977d;
+
+    @media screen and (max-width: 430px) {
+      margin-bottom: 20px;
+    }
   }
 
   h4 {

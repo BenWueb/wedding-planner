@@ -1,12 +1,17 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
-  display: flexbox;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 40px;
   text-transform: uppercase;
   letter-spacing: 3px;
+
+  @media screen and (max-width: 430px) {
+    flex-direction: column;
+    gap: 40px;
+  }
 `;
 
 export const FooterLinksContainer = styled.div`

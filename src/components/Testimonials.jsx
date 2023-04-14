@@ -17,7 +17,7 @@ function Testimonials() {
                 height: "80px",
                 width: "80px",
                 position: "absolute",
-                top: "75px",
+                top: "130px",
                 left: -20,
               }}
             />
@@ -33,7 +33,7 @@ function Testimonials() {
                 height: "80px",
                 width: "80px",
                 position: "absolute",
-                bottom: "35px",
+                bottom: "0px",
                 right: -20,
               }}
             />

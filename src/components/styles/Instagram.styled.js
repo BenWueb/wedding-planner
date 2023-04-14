@@ -34,10 +34,8 @@ export const InstaSection = styled.div`
 `;
 export const InstaPhotos = styled.div`
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 10px;
-
-  justify-content: space-around;
 `;
 export const Insta = styled.img`
   height: 250px;

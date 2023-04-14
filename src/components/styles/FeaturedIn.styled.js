@@ -4,6 +4,7 @@ export const FeaturedContainer = styled.div`
   background-color: rgba(0, 0, 0, 0.2);
   padding: 30px;
   position: relative;
+  overflow: hidden;
 
   h3 {
     text-align: center;
@@ -36,6 +37,12 @@ export const FeaturedImgContainer = styled.div`
   align-items: center;
   width: 1500px;
   margin: 0 auto;
+
+  @media screen and (max-width: 430px) {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+  }
 `;
 
 export const FeaturedImg = styled.img`

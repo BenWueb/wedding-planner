@@ -22,11 +22,20 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding-top: 20px;
   width: 100%;
+
+  @media screen and (max-width: 430px) {
+    justify-content: center;
+  }
 `;
 
 export const Logo = styled.img`
   height: 75px;
   width: 75px;
+
+  @media screen and (max-width: 430px) {
+    height: 150px;
+    width: auto;
+  }
 `;
 
 export const Menu = styled.div`
@@ -76,17 +85,32 @@ export const Cta = styled.div`
   width: 80%;
   margin: auto;
   padding: 150px 0;
+
+  @media screen and (max-width: 430px) {
+    padding: 50px 0;
+  }
+
   h1 {
     line-height: 150px;
     margin-bottom: 80px;
-    font-size: 80px;
+
     letter-spacing: 10px;
+
+    @media screen and (max-width: 430px) {
+      line-height: 75px;
+      font-size: 50px;
+    }
   }
 
   span {
     font-family: "Great Vibes", cursive;
     font-size: 150px;
     letter-spacing: 0px;
+
+    @media screen and (max-width: 430px) {
+      line-height: 150px;
+      font-size: 100px;
+    }
   }
 
   h4 {

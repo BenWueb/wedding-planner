@@ -25,6 +25,11 @@ export const TestimonialsContainer = styled.div`
   margin: 0 auto;
   position: relative;
 
+  @media screen and (max-width: 430px) {
+    width: 80%;
+    padding: 40px 0;
+  }
+
   h3 {
     text-transform: uppercase;
     background-color: white;
@@ -32,6 +37,11 @@ export const TestimonialsContainer = styled.div`
     padding: 0 20px;
     font-size: 16px;
     letter-spacing: 3px;
+
+    @media screen and (max-width: 430px) {
+      text-align: center;
+      margin-bottom: 50px;
+    }
   }
 `;
 
@@ -40,6 +50,10 @@ export const Testimonial = styled.div`
 
   padding: 100px 200px;
   width: 100%;
+
+  @media screen and (max-width: 430px) {
+    padding: 40px;
+  }
 
   h4 {
     margin-bottom: 40px;

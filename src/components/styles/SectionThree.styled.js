@@ -17,6 +17,10 @@ export const SectionThreeContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 150px;
+
+  @media screen and (max-width: 430px) {
+    padding: 40px 20px;
+  }
 `;
 export const Logo = styled.img`
   height: 200px;
@@ -27,6 +31,10 @@ export const Logo = styled.img`
 export const SectionThreeText = styled.div`
   text-align: center;
   width: 600px;
+
+  @media screen and (max-width: 430px) {
+    width: 100%;
+  }
   p {
     margin-bottom: 40px;
     font-size: 24px;

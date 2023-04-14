@@ -16,6 +16,12 @@ export const StyledSection = styled.section`
     url(${logo});
   background-attachment: fixed;
   margin: 0 auto;
+
+  @media screen and (max-width: 430px) {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
 `;
 
 export const Card = styled.div`
