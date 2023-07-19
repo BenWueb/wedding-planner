@@ -3,7 +3,9 @@ import logo from "../../assets/weddinglogo.png";
 
 export const StyledSection = styled.section`
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
+  gap: 50px;
   justify-content: space-around;
   padding: 80px;
   position: relative;
